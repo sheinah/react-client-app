@@ -20,6 +20,7 @@ h6 {
 
 .title {
   font-family: Mitr-Light;
+  color: #a9acba;
 }
 
 .text-right {
@@ -36,4 +37,25 @@ h6 {
   background-color: #edeafe;
   height: 50vh;
   width: 100vw;
+}
+
+.custom-btn-color {
+  border-color: #9782fa;
+  color: #a9acba;
+}
+
+.custom-btn-color:hover {
+  background-color: #9782fa;
+  color: #fff;
+}
+
+.custom-btn-color2 {
+  border-color: #9782fa;
+  background: linear-gradient(to right, #ae9ef5, #9782fa);
+  color: #ffff;
+}
+
+.custom-btn-color2:hover {
+  background-color: #fff;
+  color: #9782fa;
 }
