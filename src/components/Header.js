@@ -5,10 +5,13 @@ class Header extends Component {
     return (
       <div className="my-container container-fluid">
         <div className="row">
-          <div className="col-4 text-center" style={{ marginTop: 10 }}>
-            <h1 style={{ color: "#9782fa" }}>Coursite</h1>
+          <div
+            className="col-3 text-left"
+            style={{ marginTop: 10, marginLeft: 40 }}
+          >
+            <h5 style={{ color: "#9782fa" }}>Coursite.</h5>
           </div>
-          <div className="col-5 text-center" style={{ marginTop: 25 }}>
+          <div className="col-4 text-center" style={{ marginTop: 25 }}>
             <ul className="list-inline">
               <li className="list-inline-item title mb-2">Home</li>
               <li className="list-inline-item title mb-2">Services</li>
@@ -16,7 +19,7 @@ class Header extends Component {
               <li className="list-inline-item title mb-2">Blog</li>
             </ul>
           </div>
-          <div className="col-3 text-right" style={{ marginTop: 20 }}>
+          <div className="col-4 text-right" style={{ marginTop: 20 }}>
             <button
               className="btn custom-btn-color title"
               style={{

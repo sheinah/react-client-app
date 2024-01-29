@@ -12,6 +12,36 @@
   src: url("/public/fonts/Kanit-Medium.ttf");
 }
 
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 16px;
+  }
+  .img-1 {
+    margin-right: 20px;
+  }
+}
+
+/* Responsive styles for medium-sized screens */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .title {
+    font-size: 20px;
+  }
+  .img-1 {
+    margin-right: 30px;
+  }
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 1025px) {
+  .title {
+    font-size: 24px;
+  }
+  .img-1 {
+    margin-right: 50px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -73,10 +103,18 @@ h6 {
 }
 
 img {
-  width: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-1 {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
+  max-width: 10%;
+  height: auto;
+  margin-right: 50px;
+}
+
+.flippable-img {
+  transform: scaleX(-1);
 }
