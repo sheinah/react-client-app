@@ -6,7 +6,7 @@ class Header extends Component {
       <div className="my-container container-fluid">
         <div className="row">
           <div className="col-4 text-center" style={{ marginTop: 10 }}>
-            <h1>Coursite</h1>
+            <h1 style={{ color: "#9782fa" }}>Coursite</h1>
           </div>
           <div className="col-5 text-center" style={{ marginTop: 25 }}>
             <ul className="list-inline">

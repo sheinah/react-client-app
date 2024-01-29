@@ -1,11 +1,15 @@
 @font-face {
-  font-family: Mitr-Light;
-  src: url("/public/fonts/Mitr-Light.ttf");
+  font-family: Kanit-Bold;
+  src: url("/public/fonts/Kanit-Bold.ttf");
 }
 
 @font-face {
-  font-family: Mitr-Regular;
-  src: url("/public/fonts/Mitr-Regular.ttf");
+  font-family: Kanit-Regular;
+  src: url("/public/fonts/Kanit-Regular.ttf");
+}
+@font-face {
+  font-family: Kanit-Medium;
+  src: url("/public/fonts/Kanit-Medium.ttf");
 }
 
 h1,
@@ -14,13 +18,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Mitr-Regular;
-  color: #9782fa;
+  font-family: Kanit-Medium;
 }
 
 .title {
-  font-family: Mitr-Light;
+  font-family: Kanit-Regular;
   color: #a9acba;
+}
+
+.title-content {
+  font-family: Kanit-Bold;
 }
 
 .text-right {
@@ -33,9 +40,13 @@ h6 {
   text-align: center;
 }
 
+.body-background {
+  background-color: #edeafe;
+  height: 80vh;
+}
 .my-container {
   background-color: #edeafe;
-  height: 50vh;
+  height: 10vh;
   width: 100vw;
 }
 
@@ -59,4 +70,13 @@ h6 {
   border-color: #9782fa;
   background: #fff;
   color: #a9acba;
+}
+
+img {
+  width: 100px;
+}
+
+.img-1 {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
