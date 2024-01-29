@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Images from "../common/imagesList";
 
 class BodyContent extends Component {
   render() {
@@ -24,8 +23,8 @@ class BodyContent extends Component {
               your skills on your own to achieve what you seek
             </p>
           </div>
-          <div className="col-6">
-            <Images />
+          <div className="col-6 text-center mt-5">
+            <img className="img" src="/images/investing-3D.png" alt="" />
           </div>
         </div>
       </div>
