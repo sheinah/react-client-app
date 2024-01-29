@@ -21,7 +21,7 @@
     margin-right: 20px;
   }
   img {
-    width: 60;
+    width: 50;
     height: auto;
   }
 }
@@ -35,7 +35,7 @@
     margin-right: 30px;
   }
   img {
-    width: 80;
+    width: 70;
     height: auto;
   }
 }
@@ -84,9 +84,12 @@ h6 {
 
 .body-background {
   background-color: #edeafe;
-  height: 80vh;
+  height: 70vh;
   width: 100vw;
+  position: relative;
+  overflow: hidden;
 }
+
 .my-container {
   background-color: #edeafe;
   height: 10vh;
