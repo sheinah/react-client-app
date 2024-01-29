@@ -4,8 +4,8 @@ class BodyContent extends Component {
   render() {
     return (
       <div className="container-fluid body-background">
-        <div className="row" style={{ marginLeft: 30, marginRight: 10 }}>
-          <div className="col-6">
+        <div className="row" style={{ marginLeft: 30 }}>
+          <div className="col-8">
             <h1
               className="title-content mt-2"
               style={{
@@ -23,7 +23,7 @@ class BodyContent extends Component {
               your skills on your own to achieve what you seek
             </p>
           </div>
-          <div className="col-6 text-center mt-5">
+          <div className="col-4 text-center mt-5">
             <img className="img" src="/images/investing-3D.png" alt="" />
           </div>
         </div>

@@ -85,6 +85,7 @@ h6 {
 .body-background {
   background-color: #edeafe;
   height: 80vh;
+  width: 100vw;
 }
 .my-container {
   background-color: #edeafe;

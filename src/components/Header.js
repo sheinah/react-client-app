@@ -9,7 +9,7 @@ class Header extends Component {
             className="col-3 text-left"
             style={{ marginTop: 10, marginLeft: 40 }}
           >
-            <h5 style={{ color: "#9782fa" }}>Coursite.</h5>
+            <h2 style={{ color: "#9782fa" }}>Coursite.</h2>
           </div>
           <div className="col-4 text-center" style={{ marginTop: 25 }}>
             <ul className="list-inline">
@@ -24,23 +24,11 @@ class Header extends Component {
               className="btn custom-btn-color title"
               style={{
                 marginRight: 10,
-                "--bs-btn-padding-y": ".25rem",
-                "--bs-btn-padding-x": ".5rem",
-                "--bs-btn-font-size": ".75rem",
               }}
             >
               Log in
             </button>
-            <button
-              className="btn custom-btn-color2 title"
-              style={{
-                "--bs-btn-padding-y": ".25rem",
-                "--bs-btn-padding-x": ".5rem",
-                "--bs-btn-font-size": ".75rem",
-              }}
-            >
-              Sign up
-            </button>
+            <button className="btn custom-btn-color2 title">Sign up</button>
           </div>
         </div>
       </div>
